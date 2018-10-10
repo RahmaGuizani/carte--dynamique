@@ -1,0 +1,95 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRalOs2JgsMRJBbyv9rc97uYxMY_oMWyNuJbDId2wWiGE3eMAPL");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2px solid whitesmoke;
+  border-radius: 30px;
+  height: 30%;
+}
+.Mastercard {
+  width: 18vw;
+  height: 10vw;
+  position: relative;
+  top: -6vw;
+  left: 33vw;
+}
+.Title {
+  color: white;
+  margin-left: 5vw;
+}
+.Card-number {
+  font-family: cursive;
+  color: rgb(224, 224, 82);
+  background-color: rgba(121, 100, 48, 0.4);
+  font-size: 5vw;
+  margin-left: 15vw;
+  width: 65vw;
+}
+.Card-ref {
+  color: white;
+
+  margin-right: 59vw;
+}
+.Card-month {
+  color: white;
+  font-size: 2vw;
+}
+.Card-valid {
+  color: white;
+  width: 10vw;
+  position: absolute;
+  margin-left: -8vw;
+  margin-top: -3.5vw;
+  font-size: 2vw;
+}
+
+.Cardholder {
+  color: white;
+  margin-right: 42vw;
+}
+
+.Img-card {
+  width: 15vw;
+  height: 10vw;
+  border: 2px solid none;
+  border-radius: 10px;
+  margin-right: 50vw;
+}
+.Part-left {
+  float: right;
+  width: 110%;
+}
+.Part-reight {
+  position: absolute;
+  top: 38vw;
+  left: 60vw;
+  font-size: 2.5vw;
+}
+.Card-valid-num {
+  color: white;
+  position: absolute;
+  margin-top: -1vw;
+  margin-left: 2vw;
+}
+.forme {
+  position: absolute;
+  margin-top: 2vw;
+  margin-left: 18vw;
+}
+input {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid rgb(17, 17, 165);
+  border-radius: 1vw;
+  font-size: 5vw;
+}
+button {
+  background-color: greenyellow;
+  position: absolute;
+  margin-top: 2vw;
+  margin-left: 20vw;
+  font-size: 4vw;
+  border-radius: 1vw;
+}
